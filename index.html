@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Hany | Flutter Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="logo">Mohamed Hany</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero / About -->
+<section id="about" class="section hero">
+  <h1>Hi, I'm Mohamed Hany 👋</h1>
+  <p>Flutter Developer | Mobile Apps | Firebase, APIs & Payment Integration</p>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-container">
+
+    <!-- G Student App -->
+    <div class="project-card">
+      <h3>G Student App</h3>
+      <p>Educational app for students, trainers, and admin. Features login, protected content, payments, performance tracking.</p>
+      <div class="thumbnails">
+        <img src="images/gstudent1.jpeg" alt="G Student 1" data-index="0" data-project="gstudent">
+        <img src="images/gstudent2.jpeg" alt="G Student 2" data-index="1" data-project="gstudent">
+        <img src="images/gstudent3.jpeg" alt="G Student 3" data-index="2" data-project="gstudent">
+        <img src="images/gstudent4.jpeg" alt="G Student 4" data-index="3" data-project="gstudent">
+      </div>
+      <div class="links">
+        <a href="https://play.google.com/store/apps/details?id=com.gstudent.gstudent2" target="_blank">Google Play</a>
+      </div>
+    </div>
+
+    <!-- Islamic App -->
+    <div class="project-card">
+      <h3>Islamic App</h3>
+      <p>Hadith collections, Quran Surahs, digital Tasbeeh, and Quran radio.</p>
+      <div class="thumbnails">
+        <img src="images/islami1.jpeg" alt="Islamic 1" data-index="0" data-project="islamic">
+        <img src="images/islami2.jpeg" alt="Islamic 2" data-index="1" data-project="islamic">
+        <img src="images/islami3.jpeg" alt="Islamic 3" data-index="2" data-project="islamic">
+        <img src="images/islami4.jpeg" alt="Islamic 4" data-index="3" data-project="islamic">
+      </div>
+      <video controls src="videos/islamicAppVideo.mp4" width="100%"></video>
+      <div class="links">
+        <a href="https://github.com/MohamedHany1512/IslamicApp" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- E-Commerce App -->
+    <div class="project-card">
+      <h3>E-Commerce App</h3>
+      <p>Full e-commerce app with login, product listing, shopping cart, and online payments.</p>
+      <div class="thumbnails">
+        <img src="images/ecommerce1.jpeg" alt="E-Commerce 1" data-index="0" data-project="ecommerce">
+        <img src="images/ecommerce2.jpeg" alt="E-Commerce 2" data-index="1" data-project="ecommerce">
+        <img src="images/ecommerce3.jpeg" alt="E-Commerce 3" data-index="2" data-project="ecommerce">
+        <img src="images/ecommerce4.jpeg" alt="E-Commerce 4" data-index="3" data-project="ecommerce">
+        <img src="images/ecommerce5.jpeg" alt="E-Commerce 5" data-index="4" data-project="ecommerce">
+        <img src="images/ecommerce6.jpeg" alt="E-Commerce 6" data-index="5" data-project="ecommerce">
+      </div>
+      <video controls src="videos/e-commerce.mp4" width="100%"></video>
+      <div class="links">
+        <a href="https://github.com/MohamedHany1512/E_commerce" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- IOT_SEC -->
+    <div class="project-card">
+      <h3>IOT_SEC</h3>
+      <p>Smart home device control with Firebase. Auto shutdown if gas exceeds safe levels.</p>
+      <div class="thumbnails">
+        <img src="images/IOT_SEC1.jpeg" alt="IOT 1" data-index="0" data-project="iot">
+        <img src="images/IOT_SEC2.jpeg" alt="IOT 2" data-index="1" data-project="iot">
+        <img src="images/IOT_SEC3.jpeg" alt="IOT 3" data-index="2" data-project="iot">
+        <img src="images/IOT_SEC4.jpeg" alt="IOT 4" data-index="3" data-project="iot">
+        <img src="images/IOT_SEC5.jpeg" alt="IOT 5" data-index="4" data-project="iot">
+        <img src="images/IOT_SEC6.jpeg" alt="IOT 6" data-index="5" data-project="iot">
+      </div>
+      <video controls src="videos/IOT_SEC.mp4" width="100%"></video>
+      <div class="links">
+        <a href="https://github.com/MohamedHany1512/IOT_SEC" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <span>Flutter & Dart</span>
+    <span>Firebase & Supabase</span>
+    <span>REST APIs</span>
+    <span>Payment Gateways: Stripe, PayPal, Paymob, XPay</span>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/mohamed-hany-597a9631b/" target="_blank">linkedin.com/in/mohamed-hany</a></p>
+  <p>Email: mh861590@gmail.com</p>
+  <p>Phone: +201099129464</p>
+</section>
+
+<!-- Modal for images/videos -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modal-image">
+  <video class="modal-video" id="modal-video" controls></video>
+  <a class="prev">&#10094;</a>
+  <a class="next">&#10095;</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
